@@ -2,9 +2,11 @@ $(function(){
   $('.slider').slick({
     dots: true,
     infinite: true,
-    speed: 100,
+    speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true,
+    arrows:false,
+    autoplay: true,
     
     
   });
