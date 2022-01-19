@@ -17,7 +17,8 @@
 .header{
   background-color: #000;
   padding-top: 20px;
-  min-height:100vh
+  min-height:100vh;
+  margin-bottom: 20px;
 }
 .header__inner{
   
@@ -25,13 +26,23 @@
 }
 .header__top{
   display: flex;
-  justify-content: center;
+  justify-content: right;
   padding: 20px 0px 20px;
-  align-items: center;
  border-bottom: 1px solid #fff;
- margin-bottom: 20px;
+ margin-bottom: 35px;
+ align-items: center;
   
   
+}
+.navmenu{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.header__phone{
+  align-items: center;
+  display: flex;
 }
 .header__logo{
   color: #cdd8dd;
@@ -44,13 +55,25 @@
   list-style: none;
   cursor: pointer;
   li{
-    margin-left: 30px;
+    margin-left: 70px;
     &:hover{
       color: #9e9e9ef0;
       transition: all .5s;
     }
   }
 }
+.phone__img-whats{
+  max-width: 30px;
+  margin-right: 10px;
+  
+}
+.phone__number{
+  margin-right: auto;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
 .menu-pad{
   margin-right: 20px;
 }
@@ -92,7 +115,7 @@
   content: '';
   position: absolute;
   border-bottom: 1px solid #fff;
-  bottom: -125px;
+  bottom: -150px;
   right: -705px;
   color: #fff;
   width: 70px;
@@ -101,7 +124,7 @@
   content: '';
   position: absolute;
   border-bottom: 1px solid #fff;
-  bottom: -125px;
+  bottom: -150px;
   right: -305px;
   color: #fff;
   width: 70px;
@@ -141,4 +164,21 @@
  background-color: #fff;
  border-radius: 50%;
  
+}
+.slick-list{
+ -webkit-box-shadow: 24px 21px 8px 0px rgba(242, 242, 242, 0.2);
+ -moz-box-shadow: 24px 21px 8px 0px rgba(242, 242, 242, 0.2);
+ box-shadow: 24px 21px 8px 0px rgba(242, 242, 242, 0.2);
+
+}
+.projects_title{
+  display: flex;
+  margin-bottom: 20px;
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+
+  }
 }
