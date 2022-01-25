@@ -13,22 +13,33 @@
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <title>Marrylee Design</title>
+  <meta property="og:title" content="Marrylee Design">
+  <meta property="og:site_name" content="marryleedesign">
+  <meta property="og:url" content="marryleedesign.ru">
+  <meta property="og:description" content="Дизайн твоей мечты.">
+  <meta property="og:image" content="images/preview.jpg">
 </head>
 <body>
 <header class="header">
  <div class="container">
    <div class="header__inner">
      <div class="header__top">
-       <div class="header__logo">
-         <img class="" src="" alt="">
-         
-       </div>
+       <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+        <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Главная</a></li>
+          <li><a class="menu__item" href="#">Портфолио</a></li>
+          <li><a class="menu__item" href="#">Контакты</a></li>
+        </ul>
+      </div>
        <nav class="navmenu">
          <ul class="header__menu">
-           <li>Главная</li>
-           <li>Портфолио</li>
-           <li>Контакты </li>
-           
+           <li><a class="glav__li" href="#">Главная</a></li>
+           <li><a class="portf__li" href="#portf">Портфолио</a></li>
+           <li> <a class="cont__li" href="#cont">Контакты</a></li>
          </ul>
        </nav>
        <div class="header__phone">
@@ -39,8 +50,11 @@
      <div class="header__content">
       <div class="content__logo">
         <img class="content__img-logo" src="images/logo.png" alt="">
-        <p class="content__img-text" >Дизайн, который вы заслуживаете.</p>
+        <div class="content__img">
+       <p class="content__img-text" id="blink6" >Дизайн вашей мечты</p> 
       </div>
+      </div>
+      
       <div class="slider">
         <div class="slider__item"><img class="slider__img" src="images/content-image.jpg" alt=""></div>
         <div class="slider__item"><img class="slider__img" src="images/content-image.jpg" alt=""></div>
@@ -54,12 +68,35 @@
 <section class="projects">
   <div class="container">
     <div class="projects_title">
-      <h1 class="title-inst">Портфолио</h1>
+      <h1 class="title-inst" id="portf" >Портфолио</h1>
     </div>
-    <div class="elfsight-app-9330e216-c1ba-4b20-9bb1-79db063ec9c6"></div>
+    <div class="elfsight-app-9330e216-c1ba-4b20-9bb1-79db063ec9c6 portfolio"></div>
   </div>
 </section>
+<footer id="cont" class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__block-1">
+        <ul class="block-list">
+          <li>Дизайн интерьера «MarryleeDesign»</li>
+          <li>© 2021. Все права защищены</li>
+          <li>Политика конфиденциальности</li>
+        </ul>
+      </div>
+      <div class="footer_inner-logo">
+        <img  class="footer__logo" src="images/logo.png" alt="">
+      </div>
+        <div class="footer__block-2">
+          <ul class="block-list">
+            <li>Заказ дизайн проектов бронирование:</li>
+            <li>WhatsApp\Viber:</li>
+            <li>+7(908)049 85 62</li>
+          </ul>
+        </div>
 
+    </div>
+  </div>
+</footer>
 
 
 

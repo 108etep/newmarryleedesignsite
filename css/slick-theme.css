@@ -117,6 +117,8 @@
 .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
+    max-width: 30%;
+    min-width: 290px;
 }
 
 .slick-dots
@@ -201,4 +203,11 @@
 {
     opacity: .75;
     color: #fff;
+}
+@media (max-width:1000px){
+  .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    max-width: 60%;
+    min-width: 290px;
+  }
 }
